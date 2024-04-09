@@ -1,0 +1,44 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    justify-content: center;
+    align-items: center;
+    background-image: url('Untitled.png'),url('background.png');
+    background-repeat: no-repeat;
+    background-size: max(100vw, 2000px),max(100vw,100vh);
+    background-position-x: center;
+    background-position-y: center;
+    z-index: 1;
+}
+
+
+.div-ads {
+    position: absolute;
+    z-index: 3;
+}
+
+
+.div-download {
+    position: absolute;
+    margin: 15vw;
+    z-index: 2;
+}
+
+.download {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    opacity: math;
+    text-decoration: none;
+}
+
+.download:hover {
+    opacity: 1;
+    color: white;
+    transition: .2s ease-in-out;
+}
