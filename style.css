@@ -16,10 +16,22 @@ body {
     z-index: 1;
 }
 
+#ads{
+    height: 0;
+    width: 0;
+    scale: 25%;
+    filter: saturate(0);
+    opacity: 0.04;
+}
+
 
 .div-ads {
     position: absolute;
-    z-index: 3;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 15vh;
+    margin-bottom: 15vw;
+    z-index: 2;
 }
 
 
