@@ -40,13 +40,6 @@ body {
 }
 
 
-.div-download {
-    position: absolute;
-    margin: 15vw;
-    z-index: 2;
-}
-
-
 .how-to {
     font-size: 50%;
     opacity: 0.2;
@@ -57,6 +50,13 @@ body {
 .how-to:hover {
     opacity: 0.8;
     transition: .2s ease-in-out;
+}
+
+
+.div-download {
+    position: absolute;
+    margin: 15vw;
+    z-index: 2;
 }
 
 .download {
@@ -79,4 +79,25 @@ a:hover {
     opacity: 1;
     color: white;
     transition: .2s ease-in-out;
+}
+
+#sorry {
+    background-color: white;
+    font-family: cursive;
+    margin-bottom: 10vh;
+    color: dimgray;
+    font-size: 8;
+    width: 15vw;
+    animation-delay: 5s;
+    animation:1s ease 1s normal forwards 1 fadein;
+    -webkit-animation:1s ease 1s normal forwards 1 fadein;
+    opacity:0
+}
+
+@keyframes fadein{from{opacity:0}
+to{opacity:0.05}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:0.05}
 }
