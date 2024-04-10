@@ -10,7 +10,7 @@ body {
     align-items: center;
     background-image: url('Untitled.png'),url('background.png');
     background-repeat: no-repeat;
-    background-size: max(100vw, 2000px),max(100vw,100vh);
+    background-size: max(100vw, 2000px),clamp(max(100vw,100vh), max(120vw,120vh), 1500px);
     background-position-x: center;
     background-position-y: center;
     z-index: 1;
