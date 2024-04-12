@@ -17,7 +17,6 @@ body {
 }
 
 #ads{
-    display: none;
     height: 30;
     width: 0;
     scale: 15% ;
