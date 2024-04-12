@@ -79,7 +79,19 @@ body {
     text-decoration: none;
 }
 
+.download:hover {
+    opacity: 0.6;
+    transition: .2s ease-in-out;
+    text-decoration: none;
+}
+
+
 a {
+    text-decoration: none;
+}
+
+
+.aa {
     font-family: 'Times New Roman', Times, serif;
     color: black;
     opacity: 0.5;
@@ -87,7 +99,7 @@ a {
     transition: .2s ease-in-out;
 }
 
-a:hover {
+.aa:hover {
     opacity: 1;
     color: white;
     transition: .2s ease-in-out;
