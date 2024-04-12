@@ -94,22 +94,12 @@ a:hover {
 }
 
 #sorry {
+    display: none;
     background-color: white;
     font-family: cursive;
     margin-bottom: 10vh;
     color: dimgray;
     font-size: 8;
     width: 15vw;
-    animation-delay: 5s;
-    animation:1s ease 1s normal forwards 1 fadein;
-    -webkit-animation:1s ease 1s normal forwards 1 fadein;
-    opacity:0
-}
-
-@keyframes fadein{from{opacity:0}
-to{opacity:0.05}
-}
-
-@-webkit-keyframes fadein{from{opacity:0}
-to{opacity:0.05}
+    opacity:0.1
 }
