@@ -17,6 +17,7 @@ body {
 }
 
 #ads{
+    display: none;
     height: 30;
     width: 0;
     scale: 15% ;
@@ -31,7 +32,6 @@ body {
 
 
 .div-ads {
-    display: none;
     position: absolute;
     margin-left: 15vw;
     margin-right: 15vw;
