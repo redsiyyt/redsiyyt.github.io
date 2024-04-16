@@ -75,9 +75,25 @@ a:hover {
     transition: .2s ease-in-out;
 }
 
+#note{
+    width: 15vw;
+    font-size: 5;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    opacity: 0.05;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+}
+
+#animatedaim{
+    color: gray;
+    font-size: 10;
+    opacity: 0.2;
+}
+
 #smokes{
     font-size: 10;
-    opacity: 0.25;
+    opacity: 0.2;
     color: gray;
 }
 
@@ -91,7 +107,7 @@ a:hover {
     filter: saturate(0.5);
     color: brown;
     font-size: 10;
-    opacity: 0.25;
+    opacity: 0.2;
 }
 
 #bloods:hover{
@@ -119,3 +135,5 @@ to{opacity:0.05}
 @-webkit-keyframes fadein{from{opacity:0}
 to{opacity:0.05}
 }
+
+
