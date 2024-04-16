@@ -10,7 +10,7 @@ body {
     align-items: center;
     background-image: url('Untitled2.png'),url('Untitled.png'),url('background.png');
     background-repeat: no-repeat;
-    background-size: max(100vw, 2000px),max(100vw, 2000px),clamp(max(100vw,100vh), max(120vw,120vh), 1500px);
+    background-size: max(50vw, 2000px),max(50vw, 2000px),clamp(max(100vw,100vh), max(120vw,120vh), 1500px);
     background-position-x: center;
     background-position-y: center;
     z-index: 1;
@@ -73,6 +73,30 @@ a:hover {
     opacity: 1;
     color: white;
     transition: .2s ease-in-out;
+}
+
+#smokes{
+    font-size: 10;
+    opacity: 0.25;
+    color: gray;
+}
+
+#smokes:hover{
+    opacity: 0.5;
+    color: white;
+    transition: .2s ease-in-out;
+}
+
+#bloods{
+    filter: saturate(0.5);
+    color: brown;
+    font-size: 10;
+    opacity: 0.25;
+}
+
+#bloods:hover{
+    opacity: 0.5;
+    filter: saturate(1.5);
 }
 
 #sorry {
